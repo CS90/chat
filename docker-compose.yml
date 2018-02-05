@@ -1,0 +1,12 @@
+version: '3.2'
+
+services:
+  frontend:
+    build: ./chat_frontend/.
+    ports:
+      - "80:80"
+
+  backend:
+    build: ./chat_backend/.
+    ports:
+      - "8080:8080"
