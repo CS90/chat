@@ -1,0 +1,6 @@
+[submodule "chat_backend"]
+	path = chat_backend
+	url = git@github.com:CS90/chat_backend.git
+[submodule "chat_frontend"]
+	path = chat_frontend
+	url = git@github.com:CS90/chat_frontend.git
